@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background:linear-gradient(160deg, #e0f7fa, #e8eaf6);
+    padding: 30px;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background: #28a745;
+}
+
+button[type="reset"] {
+    background: #dc3545;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#message {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 4px;
+    display: block;
+}
+
+/* ===== Dark Mode ===== */
+body.dark {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+}
+
+body.dark .container {
+    background: #1e1e2e;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+body.dark h2 {
+    color: #e0e0e0;
+}
+
+body.dark input,
+body.dark select {
+    background: #2a2a3e;
+    border: 1px solid #444;
+    color: #e0e0e0;
+}
+
+body.dark input::placeholder {
+    color: #888;
+}
+
+body.dark select option {
+    background: #2a2a3e;
+    color: #e0e0e0;
+}
+#themeToggle {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    padding: 8px 14px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    z-index: 999;
+}
+
+#themeToggle:hover {
+    opacity: 0.85;
+}
