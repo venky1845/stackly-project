@@ -1,0 +1,20 @@
+
+ 
+Features Implemented:
+• Form fields: Full Name, Email, Phone Number, Course, Password, Confirm Password
+
+• Input validation for empty fields, email format, phone number, and password matching
+
+• Error messages displayed using <span> elements below each input field
+
+• Dark Mode toggle (Light/Dark theme switching)
+
+• Data stored in browser localStorage after successful registration
+
+• Success message displayed on valid form submission
+ 
+Files Used:
+• index.html – Form structure and layout
+• style.css – Styling, responsiveness, and dark mode design
+• index.js – Validation logic and form handling
+Output screenshots are attached below.
